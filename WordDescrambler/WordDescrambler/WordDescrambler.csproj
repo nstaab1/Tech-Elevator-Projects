@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{24E41259-BB8E-4521-8B98-6F8B87FB22EB}</ProjectGuid>
+    <ProjectGuid>{BCC9C9F7-91F8-495A-BC14-6AD2D0F958A8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Grid_Design</RootNamespace>
-    <AssemblyName>Grid Design</AssemblyName>
+    <RootNamespace>WordDescrambler</RootNamespace>
+    <AssemblyName>WordDescrambler</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Movement.cs" />
-    <Compile Include="Classes\SnakeBody.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
